@@ -1,0 +1,116 @@
+{
+  "source": "brain/skills/teacher-workspace-ui",
+  "export": "skill/teacher-workspace-ui",
+  "version": "1.0.0",
+  "canonical_sha256": "4B69E939CE6E30E3BA7980926AF41BB4735ABFA437D86CC1B2F587577EBBCB75",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "573fb60a960c0ed5d84a2451f3908ae98dd38bba27335661b61327075d65f406"
+    },
+    {
+      "path": "VERSION",
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "1b1a164f6d0e23295cec72100ff7ca71be8969bfb15f0018416ac9a0edb577f8"
+    },
+    {
+      "path": "assets/screenshots/osep-analysis-desktop.jpg",
+      "sha256": "869809ced23d5fe1126b9d1e81e1028b817197e6c4918477b2c58005e85bc290"
+    },
+    {
+      "path": "assets/screenshots/osep-records-desktop.jpg",
+      "sha256": "ebef9cb95645295e7f05b7c4460560f114e5b7018ebf3895e928d4f609baf221"
+    },
+    {
+      "path": "assets/screenshots/osep-records-mobile.jpg",
+      "sha256": "9fff0941c378d99f28caf49cfce3f44336178f6fa9567604d2859d76c0170221"
+    },
+    {
+      "path": "assets/screenshots/template-analysis-desktop.jpg",
+      "sha256": "c09851fd90f0b017f30f8e348d1e1f700f44c9b64c3b6181d6b6e4600f1080be"
+    },
+    {
+      "path": "assets/screenshots/template-records-mobile.jpg",
+      "sha256": "3e91b869b7161d9361771fbe006df78cbb0364c735a6ad495b7ff054a5b627e7"
+    },
+    {
+      "path": "assets/screenshots/template-settings-desktop.jpg",
+      "sha256": "deac0f3935aeccd6b3ca87cf78d6c5fac606a2fecf4ab893ea81b61dcaa48096"
+    },
+    {
+      "path": "assets/template/README.md",
+      "sha256": "44a74194e98b6f2df71c1af2fb7a0adae0b9045b5c129533ab277d1e2ff465c5"
+    },
+    {
+      "path": "assets/template/demo-records.json",
+      "sha256": "7a56f667e220f66bedf590e93ec7d9881ed5ae07b03a15c0604291a9fdbda5f1"
+    },
+    {
+      "path": "assets/template/lib/provider.mjs",
+      "sha256": "189b9ff3e5229a1269b0931ef380978923e5e3a683392901f7d68fa43171f914"
+    },
+    {
+      "path": "assets/template/lib/record-store.mjs",
+      "sha256": "a07b0e3bbffc9ae242e8d151a7c3e35f8ae01e9a188e51af4aa042dc8e37797b"
+    },
+    {
+      "path": "assets/template/lib/sheet-client.mjs",
+      "sha256": "a2d507ba786632c2bb9cf73c87b9e2d7fd96eb7f3155ff630783c3607b3bcc4d"
+    },
+    {
+      "path": "assets/template/lib/teacher-analysis.mjs",
+      "sha256": "3c16718426dd83da7b1b53d126bd5ebdf4de893bc0afe666d07c52cee7d27d7d"
+    },
+    {
+      "path": "assets/template/lib/teacher-settings.mjs",
+      "sha256": "7b9f075dd079b12a2b59273a57370cc3eec4f421d7c47bd528ca67422ea12231"
+    },
+    {
+      "path": "assets/template/package.json",
+      "sha256": "0c9dc03f446d9996ad66b255dbb2bb6286a7798e5ff1f6877adb9c5442db9f17"
+    },
+    {
+      "path": "assets/template/public/teacher.css",
+      "sha256": "85eaa61be0450f8100f00ee38b82d584ee77202a5d33402997eb24a750f1a326"
+    },
+    {
+      "path": "assets/template/public/teacher.html",
+      "sha256": "e18e5d7387ffef94138915579679c7344a1be5ed62416125809e4e1f1096667e"
+    },
+    {
+      "path": "assets/template/public/teacher.js",
+      "sha256": "5a5485bca5c1720327645d9c3947539ea860df24ca74d2fe68111beac367fa0b"
+    },
+    {
+      "path": "assets/template/server.mjs",
+      "sha256": "e6a357c4f574388655124e2cd6c58eb087dc11d0e04713badd7f35fe851a6c05"
+    },
+    {
+      "path": "assets/template/sheets/Code.gs",
+      "sha256": "08d04d7c7ea6824e6d7e8deb6b4942f200f37a08c9ebb2eff12363d9e0d47361"
+    },
+    {
+      "path": "assets/template/tests/teacher-order.test.mjs",
+      "sha256": "93e487ddf110e1d4e46a7ed3160c2370eed7825f3f7a57671ac764d0cb76656d"
+    },
+    {
+      "path": "assets/template/tests/workspace.test.mjs",
+      "sha256": "d3f0830678f62aef101ac51947c85407a464148e3d34162ebc9dcb3b4fe2e307"
+    },
+    {
+      "path": "references/examples.md",
+      "sha256": "f68846259ed9eda2f27473ac4ee4b954515f65958a98f3c88ddb83719212b438"
+    },
+    {
+      "path": "references/workspace-contract.md",
+      "sha256": "43c8f3757efb59affa26ebca8a5ff3c6555a3deb88b4ca54c66b8eafd8cfcc25"
+    }
+  ]
+}

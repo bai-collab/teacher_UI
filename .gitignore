@@ -1,0 +1,7 @@
+**/local-data/
+**/node_modules/
+**/.env
+**/.env.*
+*.log
+.DS_Store
+Thumbs.db
