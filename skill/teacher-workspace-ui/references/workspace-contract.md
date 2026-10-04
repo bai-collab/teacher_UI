@@ -25,6 +25,8 @@
 
 公開範本不提供未登入的學生寫入API。串接既有學生端時沿用既有紀錄入口；依自己的身分／權限設計，不開放匿名改成績。範本讀寫自己的 `local-data/records/events.jsonl`，使用者可透過後端 `recordStore.save(record)` 或原系統轉接匯入，並以 `cleanRecord` 驗證。
 
+校內學生端由原教學程式提供；[區網工具與接線](school-lan.md) 保存單一IPv4／埠號、啟動前核對目前網卡，預設只開放學生端。本教師API表仍只適用loopback；不可由區網轉送教師路由。osep轉接使用原程式的學生路由白名單、限流及教師隔離，不是新增匿名教師API。
+
 ## 紀錄
 
 id為8～80字ASCII英數、底線或連字號；studentId為1～40字英數／中文字、底線或連字號。type為grade或ai，status為completed或failed。task包含code、title；timestamp為有效日期字串，請使用標準UTC ISO格式。program為 `{targets:[{name, isStage, blocks, variables, lists}]}`；是結構快照，不包含完整執行環境。

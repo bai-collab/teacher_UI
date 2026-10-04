@@ -12,6 +12,7 @@
 - AI分析助手：本機摘要預設不呼叫模型，教師按送出才使用真AI；觀察、推測、建議和限制分開呈現，引用可跳回紀錄。
 - 集中設定 **AI API KEY、GAS URL、RECORD_TOKEN**。公開範本token為 **8～200碼**，前端、後端與GAS一致；教師登入密碼仍至少12字。
 - 桌面、手機、平板版型；留白保留設定、明確清除、取消不自動重送、登出清空紀錄與對話。
+- Node.js 校內區網設定：列出網卡、選定教師機IPv4／埠號、每次啟動再核對；附原osep學生端區網啟動轉接器，教師設定保持本機。
 
 ## 範例圖片
 
@@ -48,6 +49,12 @@ node skill/teacher-workspace-ui/assets/template/server.mjs --demo
 開 `http://127.0.0.1:8618/teacher.html`，設定至少12字的教師密碼，其餘先留白。接著搜尋DEMO_01、查看作答、切到分析並選「本機摘要」。假資料模式不會同步到試算表。
 
 正式模式去掉 `--demo`，使用另一份本機資料。AI端點和模型由啟動環境設定，金鑰在教師頁保存。GAS需在自己的試算表部署並設定相同token。完整步驟見 [範本啟動與AI／GAS設定](skill/teacher-workspace-ui/assets/template/README.md)，資料轉接見 [功能與資料契約](skill/teacher-workspace-ui/references/workspace-contract.md)。
+
+## 校內其他電腦連線
+
+完整步驟見 [校內區網與Node.js設定](skill/teacher-workspace-ui/references/school-lan.md)。在 `skill/teacher-workspace-ui/assets/template/` 的終端機先執行 `node scripts/school-lan.mjs list`，確認本機校內網卡，再依說明建立設定、啟動已有學生端的osep專案。其他電腦連學生網址；教師工作台仍在教師機的 `127.0.0.1`。
+
+私人與學校公開格式IPv4均可明確選擇；工具不猜網卡、不改防火牆，位址變更不自動換網路。**此獨立範本沒有學生編輯器，建立設定不會讓它變成學生區網網站。**其他Node.js專案需接回自己的學生伺服器；教師遠端登入需另設HTTPS及權限。校內第二台電腦、學校防火牆與真AI/GAS仍需在目標環境確認。
 
 ## 驗證與使用界線
 

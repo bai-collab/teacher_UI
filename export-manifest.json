@@ -1,8 +1,8 @@
 {
   "source": "brain/skills/teacher-workspace-ui",
   "export": "skill/teacher-workspace-ui",
-  "version": "1.0.0",
-  "canonical_sha256": "4B69E939CE6E30E3BA7980926AF41BB4735ABFA437D86CC1B2F587577EBBCB75",
+  "version": "1.1.0",
+  "canonical_sha256": "920661F1CA9E30784A129E5E4CC90A119575E489837BD006B6DCD3A9A28C55E5",
   "files": [
     {
       "path": "LICENSE",
@@ -10,15 +10,15 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "573fb60a960c0ed5d84a2451f3908ae98dd38bba27335661b61327075d65f406"
+      "sha256": "3bd36ab2acd50aad323a701649add3965ad938dcc5f6b13ce60b29e292304715"
     },
     {
       "path": "VERSION",
-      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+      "sha256": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8"
     },
     {
       "path": "agents/openai.yaml",
-      "sha256": "1b1a164f6d0e23295cec72100ff7ca71be8969bfb15f0018416ac9a0edb577f8"
+      "sha256": "2bb0f5382072515ab027072e68b41413445c1494c9f9ab3141647824110c8ca3"
     },
     {
       "path": "assets/screenshots/osep-analysis-desktop.jpg",
@@ -46,7 +46,7 @@
     },
     {
       "path": "assets/template/README.md",
-      "sha256": "44a74194e98b6f2df71c1af2fb7a0adae0b9045b5c129533ab277d1e2ff465c5"
+      "sha256": "1b01fd323d1f1e5178ed9dca494f5b3df658516d583b4b1dd86c89224ad6b2b3"
     },
     {
       "path": "assets/template/demo-records.json",
@@ -74,7 +74,7 @@
     },
     {
       "path": "assets/template/package.json",
-      "sha256": "0c9dc03f446d9996ad66b255dbb2bb6286a7798e5ff1f6877adb9c5442db9f17"
+      "sha256": "4dcfe5b5bdd0a7b647b7728e031ac1fea3ddb0c5b6f5db4eaeaa5a1591544b01"
     },
     {
       "path": "assets/template/public/teacher.css",
@@ -89,12 +89,20 @@
       "sha256": "5a5485bca5c1720327645d9c3947539ea860df24ca74d2fe68111beac367fa0b"
     },
     {
+      "path": "assets/template/scripts/school-lan.mjs",
+      "sha256": "22f1b7080340f3d5945bc390103ed88bc82b8aff47298ffb37c75410e77b5a4c"
+    },
+    {
       "path": "assets/template/server.mjs",
       "sha256": "e6a357c4f574388655124e2cd6c58eb087dc11d0e04713badd7f35fe851a6c05"
     },
     {
       "path": "assets/template/sheets/Code.gs",
       "sha256": "08d04d7c7ea6824e6d7e8deb6b4942f200f37a08c9ebb2eff12363d9e0d47361"
+    },
+    {
+      "path": "assets/template/tests/school-lan.test.mjs",
+      "sha256": "b1bb0fb68a476e8f8d171ba49d9df60436f9d313fc8c8cbfc4ea3faa03667bd4"
     },
     {
       "path": "assets/template/tests/teacher-order.test.mjs",
@@ -109,8 +117,12 @@
       "sha256": "f68846259ed9eda2f27473ac4ee4b954515f65958a98f3c88ddb83719212b438"
     },
     {
+      "path": "references/school-lan.md",
+      "sha256": "c6b15a0dd1f9f950227d8a57adc1a1783bb788ba1ca0cbdd5d49071202e5213c"
+    },
+    {
       "path": "references/workspace-contract.md",
-      "sha256": "43c8f3757efb59affa26ebca8a5ff3c6555a3deb88b4ca54c66b8eafd8cfcc25"
+      "sha256": "30c7f3850becb6dbc368ba45eb4cd4060b59598812db400d8a26b3328849d6bd"
     }
   ]
 }
